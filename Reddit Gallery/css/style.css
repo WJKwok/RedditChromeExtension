@@ -1,0 +1,51 @@
+html {
+	height: 100%;
+}
+
+body {
+}
+
+.topBar {
+  overflow: hidden;
+  background-color: #999;
+}
+
+.container{display:flex;}
+
+.column1, .column2{
+  margin: 10px;
+  flex-direction:column;
+}
+
+.column1{
+  width:300px;
+}
+
+.column2{
+  width:300px;
+  justify-content:flex-end;
+  display:flex;
+}
+
+#img{
+	width: 100%;
+}
+
+#link{
+	word-break: break-all;
+}
+
+p, h4, h5{
+	margin:5px;
+}
+
+.container {
+  justify-content: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+h4 a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Reddit Gallery",
+
+	"version": "1.0",
+
+	"description": "Every new tab displays a random reddit post (defaults to /r/Art), gallery-style.",
+
+	"manifest_version": 2,
+
+	"incognito": "split",
+
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+
+	"browser_action": {
+		"deault_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Edit Prefrences"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"icons": {
+		"128": "icon.png"
+	}
+}
